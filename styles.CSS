@@ -1,58 +1,117 @@
-body {
-  font-family: Arial;
-  margin: 0;
-}
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-color: #FFFFFF;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+     color: #B71C1C;
 
-/* Navbar */
-.navbar {
-  background-color: #FFF8DC;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-}
+ }
 
-/* Slider */
-.slider {
-  text-align: center;
-  padding: 20px;
-}
+ /* Top bar */
+ .topbar {
+     background: #D32F2F;
+     color: #FFFFFF;
+ }
 
-.slider img {
-  width: 80%;
-  height: auto;
-}
+ /* Navbar */
+ .navbar {
+     background: #D32F2F;
+ }
 
-.slider button {
-  margin-top: 10px;
-  padding: 10px 20px;
-}
+ #logo {
+     background-color: #FFFFFF;
+     color: #D32F2F;
+ }
 
-/* Categories */
-.categories {
-  padding: 20px;
-}
+ .menu li a {
+     color: #FFFFFF;
+ }
 
-/* Products */
-.products {
-  padding: 20px;
-}
+ .menu li a:hover {
+     color: #FFCDD2;
+ }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-}
+ /* Products */
+ .products {
+     background: #FFFFFF;
+ }
 
-.card {
-  border: 1px solid #ccc;
-  padding: 10px;
-  text-align: center;
-}
+ .product {
+     background: #FFF5F5;
+ }
 
-/* Footer */
-.footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
+ .product a {
+     color: #D32F2F;
+ }
+
+ /* Categories */
+ .categories_bar {
+     background: #FFFFFF;
+ }
+
+ .categories_bar a {
+     color: #B71C1C;
+ }
+
+ .categories_bar a:hover {
+     color: #D32F2F;
+ }
+
+ /* Filter */
+ .filter button {
+     background: #FFCDD2;
+     color: #B71C1C;
+ }
+
+ .filter button:hover {
+     background: #D32F2F;
+     color: #FFFFFF;
+ }
+
+ /* Footer */
+ footer {
+     background: #B71C1C;
+     color: #FFFFFF;
+ }
+
+ /* Cards */
+ .card {
+     background-color: #FFF5F5;
+ }
+
+ .card-img-top {
+     box-shadow: 0 10px 25px rgba(211, 47, 47, 0.3);
+ }
+
+ /* Buttons */
+ .btn-primary,
+ .btn-secondary {
+     background-color: #D32F2F;
+     border: none;
+ }
+
+ .btn-primary:hover,
+ .btn-secondary:hover {
+     background-color: #B71C1C;
+ }
+
+ /* Links */
+ a:hover {
+     opacity: 0.8;
+ }
+
+ /* Dark mode */
+ .dark-mode {
+     background-color: #121212;
+     color: #FFFFFF;
+ }
+
+ .dark-mode .card {
+     background-color: #1e1e1e;
+ }
+
+ /* Logo */
+ .logo-text {
+     color: #FFFFFF;
+ }
